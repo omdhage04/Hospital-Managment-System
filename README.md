@@ -106,3 +106,39 @@ Doctor report
           │                    │            │            │
           │                 feature/     feature/     feature/
           │                 patient      doctor       staff
+
+
+
+
+
+
+
+
+
+
+          4. Complete Git structure
+
+Your repository can look like:
+
+main
+ │
+ └── develop
+       │
+       ├── feature/patient-management
+       ├── feature/appointment-management
+       ├── feature/medical-management
+       │
+       ├── feature/doctor-management
+       ├── feature/admission-management
+       ├── feature/test-management
+       │
+       ├── feature/staff-management
+       ├── feature/report-management
+       │
+       ├── feature/billing
+       └── feature/authentication
+
+
+
+
+       
