@@ -82,7 +82,27 @@ Different permissions based on role
 
 Patient report
 Doctor report
-Appointment report
-Revenue/billing report
-Available beds
-Medicine stock
+
+
+
+
+
+# Arch of the git 
+
+
+
+                    GitHub Repository
+                           │
+                           ▼
+              Hospital-Management-System
+                           │
+          ┌────────────────┴────────────────┐
+          │                                 │
+        main                              develop
+          │                                 │
+          │                    ┌────────────┼────────────┐
+          │                    │            │            │
+          │                 Aaliya         Om         Prajwal
+          │                    │            │            │
+          │                 feature/     feature/     feature/
+          │                 patient      doctor       staff
