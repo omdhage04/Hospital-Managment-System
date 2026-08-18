@@ -90,26 +90,40 @@ Doctor report
 # Arch of the git 
 
 
-
-                    GitHub Repository
-                           │
-                           ▼
-              Hospital-Management-System
-                           │
-          ┌────────────────┴────────────────┐
-          │                                 │
-        main                              develop
-          │                                 │
-          │                    ┌────────────┼────────────┐
-          │                    │            │            │
-          │                 Aaliya         Om         Prajwal
-          │                    │            │            │
-          │                 feature/     feature/     feature/
-          │                 patient      doctor       staff
-
-
-
-
+              HOSPITAL MANAGEMENT SYSTEM
+                         │
+                         ▼
+                Receptionist Login
+                         │
+                    Username
+                    Password
+                         │
+                         ▼
+                  Login Successful
+                         │
+                         ▼
+                  MAIN MENU
+                         │
+       ┌─────────────────┼─────────────────┐
+       │                 │                 │
+       ▼                 ▼                 ▼
+    Patient            Doctor          Appointment
+       │                 │                 │
+       ▼                 ▼                 ▼
+   Admission          Medicine        Laboratory
+       │                 │                 │
+       └─────────────────┼─────────────────┘
+                         │
+                ┌────────┴────────┐
+                ▼                 ▼
+             Billing           Staff
+                │                 │
+                └────────┬────────┘
+                         ▼
+                      Reports
+                         │
+                         ▼
+                       Logout
 
 
 
